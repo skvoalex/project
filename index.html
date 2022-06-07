@@ -3,28 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/discounts.css">
+    <link rel="stylesheet" href="css/item-section.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div class="background">
-        <header class="header">
+    <header class="header">
+        <div class="header__container">
             <div class="logo logo_size_s">
                 <img class="logo__image" src="images\logo.svg" alt="">
                 <img class="logo__company-name" src="images\Poseidon.svg" alt="">
             </div>
             <nav class="header__nav">
-                    <a class="header__nav__link" href="#">Главная</a>
-                    <a class="header__nav__link" href="#">Товары</a>
-                    <a class="header__nav__link" href="#">Доставка</a>
-                    <a class="header__nav__link" href="#">О нас</a>
-                    <a class="header__nav__link" href="#">Контакты</a>
+                <div class="header__nav__link">
+                    <a href="#">Главная</a>
+                </div>
+                <div class="header__nav__link">
+                    <a href="#category">Товары</a>
+                </div>
+                <div class="header__nav__link">
+                    <a href="#delivery">Доставка</a>
+                </div>
+                <div class="header__nav__link">
+                    <a href="#reviews">Отзывы</a>
+                </div>
+                <div class="header__nav__link">
+                    <a href="#contacts">Контакты</a>
+                </div>
             </nav>
-            <div class="header__cart"></div>
-        </header>
-    </div>
+            <div class="header__cart">
+                <img class="center-element" src="images\basket.svg" alt="" width="70" height="70">
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="discounts">
+            <h1>Скидки недели</h1>
+                <div class="slider" id="slider-1">
+                    <div class="slider__wrapper">
+                      <div class="slider__items">
+                        <div class="discounts__container slider__item">
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                        </div>
+                        <div class="discounts__container slider__item">
+                            <div class="discounts__item" style="background-color:blue"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                            <div class="discounts__item"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                  </div>
+        </section>
+        <a id="category"></a>
+        <div class="category center-block">
+            <a class="category__link" href="#">
+                <h1>Санфаянс</h1>
+                <img class="center-block" src="images\toilet.svg" alt="" width="230" height="230">
+            </a>
+            <a class="category__link" href="#">
+                <h1>Ванны</h1>
+                <img class="center-block" src="images\bath.svg" alt="" width="230" height="230">
+            </a>
+            <a class="category__link" href="#">
+                <h1>Смесители</h1>
+                <img class="center-block" src="images\mixer.svg" alt="" width="230" height="230">
+            </a>
+            <a class="category__link" href="#">
+                <h1>Сифоны</h1>
+                <img class="center-block" src="images\siphon.svg" alt="" width="230" height="230">
+            </a>
+        </div>
+        <a id="delivery"></a>
+        <div class="delivery center-block">
+            <img src="images\car.gif" alt="" width="260" height="200">
+            <div class="delivery__info">
+                <h1>Быстро доставим любой ваш заказ по всей России</h1>
+                <div class="delivery__info__item center-block">
+                    <img src="images/geo-icon.svg" width="40" height="40">
+                    <p>Бесплатная доставка</p>
+                </div>
+                <div class="delivery__info__item center-block">
+                    <img src="images/geo-icon.svg" width="40" height="40">
+                    <p>Доставка круглый год по всей России</p>
+                </div>
+                <div class="delivery__info__item center-block">
+                    <img src="images/geo-icon.svg" width="40" height="40">
+                    <p>Время доставки занимает 7-14 рабочих дней</p>
+                </div>
+            </div>
+            <img src="images\car.gif" alt="" width="260" height="200">
+        </div>
+        <a id="reviews"></a>
+        <h1 style="margin: 100px 0 0 400px">Отзывы наших клиентов:</h1>
+        <div class="reviews center-block">
+            <div class="slider" id="slider-2">
+                <div class="slider__wrapper">
+                  <div class="slider__items">
+                    <div class="reviews__container slider__item">
+                        <img class="reviews__photo" src="images\man1.png" alt="">
+                        <div class="reviews__text-block">
+                            <h2>Роман</h2>
+                        <p>Здpaвcтвуйтe! Хoчу пoxвaлить дaннoгo пocтaвщикa! Дeлaли пpoбный зaкaз, ocтaлиcь дoвoльны и кaчecтвoм и paбoтoй. Дocтaвили в тeчeнии нeдeли пocлe oплaты! Будeм paбoтaть и peкoмeндoвaть кoллeгaм. Спacибo мaгaзину!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__container slider__item">
+                        <img class="reviews__photo" src="images\man2.png" alt="">
+                        <div class="reviews__text-block">
+                            <h2>Игорь</h2>
+                            <p>Смeлo мoгу oбoзнaчить cлeдующee, этoт интepнeт-мaгaзин caнтexники мoжeт cчитaтьcя oдним из лучшиx, пoкупaл здecь сифон и пoжaлeть o пoкупкe нe пpишлocь oднoзнaчнo, тaк кaк куплeнный мнoю вapиaнт oчeнь paдуeт глaз. Дocтaвили бeз пpoблeм, уcтaнoвил пo инcтpукции, paбoтaeт бeз cбoeв, цeнa нa выбpaнный мнoю вapиaнт бoлee, чeм пpиeмлeмaя, этo oгpoмный плюc тoжe.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__container slider__item">
+                        <img class="reviews__photo" src="images\wman.png">
+                        <div class="reviews__text-block">
+                            <h2>Татьяна</h2>
+                            <p>Заказывали в Посейдоне ванную и унитаз. Качество у них очень хорошее, поэтому прослужит долго. Очень удобно, что есть доставка и даже в регионы. Цены адекватные, а если соотносить с качеством товара, то очень хорошие. Я очень осталась довольна покупкой. То, что смотрели в магазинах города либо дороже, либо по качеству сильно уступало. Поэтому теперь покупать будем только тут.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+              </div>
+        </div>
+    </main>
+    <a id="contacts"></a>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__contacts">
+                <p>Адрес: Всеволожский просп., 9</p>
+                <p>Телефон: 8(317)730-97-88</p>
+                <p>Email: poseidon_shop@gmail.com</p>
+                <p style="color:#818A8C">© 2022 «Посейдон»</p>
+            </div>
+            <div class="logo logo_size_m">
+                <img class="logo__image" src="images\logo.svg" alt="">
+                <img class="logo__company-name" src="images\Poseidon.svg" alt="">
+            </div>
+            <div class="footer__social-links">
+                <p style="text-align: right">Мы в социальных сетях:</p>
+                <a href="https://vk.com/poseidonbirsk"><p>Вконтакте</p></a>
+                <a href="www.instagram.com"><p>Instagram</p></a>
+                <a href="www.facebook.com"><p>Facebook</p></a>
+                <a href="www.twitter.com"><p>Twitter</p></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js\sliders-inicialization.js"></script>
+    <script defer src="js\slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+.logo{
+    padding: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+.logo_size_s{
+    width: 110px;
+    height: 110px;
+}
+.logo_size_m {
+    width: 150px;
+    height: 150px;
+}
+.logo__image{
+    width: 70%;
+    height: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: inherit;
+}
+.logo__company-name{
+    height: 30%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: inherit;
+}

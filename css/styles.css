@@ -2,70 +2,56 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    transition: .5s ease-in-out;
+    scroll-behavior: smooth;
  }
-
- .background{
-    width:100vw;
-    height:100vh;
-    background-color:#F2F2F2;
-    margin: auto;
-    display: block;
+ /*::-webkit-scrollbar{
+     width: 0;
+ }*/
+ body {
+    background-color: #F2F2F2;
  }
-.header{
-    width: 100%;
-    height: 130px;
-    background-color: #4F5759;
-    display: flex;
-    justify-content: space-between;
+ h1{
+    font-family: Oswald;
+    font-size: 32px;
+    color: #1F3740;
+ }
+ h2{
+    font-family: Oswald;
+    font-size: 24px;
+    color: #1F3740;
+ }
+ img{
+     display: block;
+ }
+ p{
+     font-family: Sourse Sans Pro;
+     font-size: 20px;
+     color:#1F3740;
+ }
+ span{
+    font-family: Sourse Sans Pro;
+    font-size: 20px;
+    color:#818A8C;
+ }
+a{
+    text-decoration: none;
 }
-.logo{
-    padding: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+.center-element{
     position: relative;
-    margin-left: 30px;
-}
-.logo_size_s{
-    width: 110px;
-    height: 110px;
-}
-.logo_size_m {
-    width: 150px;
-    height: 150px;
-}
-.logo__image{
-    width: 80%;
-    height: 80%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    position: inherit;
+    transform: translate(-50%, -50%);
 }
-.logo__company-name{
-    height: 20%;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    position: inherit;
+.center-block{
+    margin-left: auto;
+    margin-right: auto;
 }
-.header__nav{
-    width: 70%;
-    height: 130px;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-    font-family: Nunito;
-    font-weight: 40px;
-}
-.header__nav__link{
-    width: 20%;
-    height: 100%;
-    background-color: #818A8C;
+.container{
+    width: 1800px;
+    height: 1700px;
+    min-width: 1200px;
     display: block;
-    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
-.header__cart{
-    width: 10%;
-    height: 130px;
-    background-color: black;
-}
+
