@@ -6,7 +6,7 @@ $('document').ready(function(){
 });
 
 function loadGoods(){
-    $.getJSON('http://myjson.dit.upm.es/api/bins/a91l', function(data){
+    $.getJSON('goods.json', function(data){
         var out = '';
         for (var key in data){
             if (('Санфаянс'.localeCompare(data[key]['category']))==0){
