@@ -1,0 +1,38 @@
+{
+    "1" : {
+        "category" : "Санфаянс",
+        "name" : "BelBagno Steam",
+        "price" : 9900,
+        "img" : "images/san3.png"
+    },
+    "2" : {
+        "category" : "Санфаянс",
+        "name" : "Laufen Alessi",
+        "price" : 59000,
+        "img" : "images/san4.png"
+    },
+    "3" : {
+        "category" : "Санфаянс",
+        "name" : "Унитаз 3",
+        "price" : 35000,
+        "img" : "images/man1.png"
+    },
+    "4" : {
+        "category" : "Санфаянс",
+        "name" : "Унитаз 4",
+        "price" : 35000,
+        "img" : "images/man1.png"
+    },
+    "5" : {
+        "category" : "Санфаянс",
+        "name" : "Унитаз 2",
+        "price" : 30000,
+        "img" : "images/san2.jpg"
+    },
+    "6" : {
+        "category" : "Санфаянс",
+        "name" : "Унитаз 3",
+        "price" : 35000,
+        "img" : "images/man1.png"
+    }
+}
