@@ -13,26 +13,26 @@
     },
     "3" : {
         "category" : "Санфаянс",
-        "name" : "Унитаз 3",
-        "price" : 35000,
-        "img" : "images/man1.png"
+        "name" : "Duravit Durastyle",
+        "price" : 16000,
+        "img" : "images/san1.png"
     },
     "4" : {
         "category" : "Санфаянс",
-        "name" : "Унитаз 4",
-        "price" : 35000,
-        "img" : "images/man1.png"
+        "name" : "Damixa Origin Evo",
+        "price" : 25000,
+        "img" : "images/san2.png"
     },
     "5" : {
         "category" : "Санфаянс",
-        "name" : "Унитаз 2",
-        "price" : 30000,
-        "img" : "images/san2.jpg"
+        "name" : "Jacob Delafon",
+        "price" : 14000,
+        "img" : "images/san5.png"
     },
     "6" : {
         "category" : "Санфаянс",
-        "name" : "Унитаз 3",
-        "price" : 35000,
-        "img" : "images/man1.png"
+        "name" : "King Midas",
+        "price" : 97000,
+        "img" : "images/san6.png"
     }
 }
