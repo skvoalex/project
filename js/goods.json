@@ -34,5 +34,113 @@
         "name" : "King Midas",
         "price" : 97000,
         "img" : "images/san6.png"
+    },
+    "7" : {
+        "category" : "Ванны",
+        "name" : "Vincea VBT",
+        "price" : 91640,
+        "img" : "images/bath1.png"
+    },
+    "8" : {
+        "category" : "Ванны",
+        "name" : "Grossman",
+        "price" : 68600,
+        "img" : "images/bath2.png"
+    },
+    "9" : {
+        "category" : "Ванны",
+        "name" : "Cezares Plane",
+        "price" : 32230,
+        "img" : "images/bath3.png"
+    },
+    "10" : {
+        "category" : "Ванны",
+        "name" : "BelBagno",
+        "price" : 87360,
+        "img" : "images/bath4.png"
+    },
+    "11" : {
+        "category" : "Ванны",
+        "name" : "Riho Barca",
+        "price" : 482460,
+        "img" : "images/bath5.png"
+    },
+    "12" : {
+        "category" : "Ванны",
+        "name" : "BelBagno Red",
+        "price" : 75750,
+        "img" : "images/bath6.png"
+    },
+    "13" : {
+        "category" : "Смесители",
+        "name" : "Aquanet Passion",
+        "price" : 8640,
+        "img" : "images/smes1.png"
+    },
+    "14" : {
+        "category" : "Смесители",
+        "name" : "Bravat Eler",
+        "price" : 3820,
+        "img" : "images/smes2.png"
+    },
+    "15" : {
+        "category" : "Смесители",
+        "name" : "Aquanet Blanco",
+        "price" : 7600,
+        "img" : "images/smes3.png"
+    },
+    "16" : {
+        "category" : "Смесители",
+        "name" : "Paffoni Light",
+        "price" : 25450,
+        "img" : "images/smes4.png"
+    },
+    "17" : {
+        "category" : "Смесители",
+        "name" : "Elerat Brav",
+        "price" : 4530,
+        "img" : "images/smes5.png"
+    },
+    "18" : {
+        "category" : "Смесители",
+        "name" : "Grohe Eurosmart",
+        "price" : 15816,
+        "img" : "images/smes6.png"
+    },
+    "19" : {
+        "category" : "Сифоны",
+        "name" : "Orio S",
+        "price" : 253,
+        "img" : "images/siphon1.png"
+    },
+    "20" : {
+        "category" : "Сифоны",
+        "name" : "Viega",
+        "price" : 2117,
+        "img" : "images/siphon2.png"
+    },
+    "21" : {
+        "category" : "Сифоны",
+        "name" : "Lineis",
+        "price" : 5570,
+        "img" : "images/siphon3.png"
+    },
+    "22" : {
+        "category" : "Сифоны",
+        "name" : "PREVEX Preloc",
+        "price" : 1066,
+        "img" : "images/siphon4.png"
+    },
+    "23" : {
+        "category" : "Сифоны",
+        "name" : "Kludi",
+        "price" : 3036,
+        "img" : "images/siphon5.png"
+    },
+    "24" : {
+        "category" : "Сифоны",
+        "name" : "Wellsee Drainage",
+        "price" : 4690,
+        "img" : "images/siphon6.png"
     }
 }

@@ -1,11 +1,14 @@
 var cart = {};
 
 $('document').ready(function(){
-    loadGoods();
+    loadSanfayans();
+    loadBaths();
+    loadMixers();
+    loadSiphons();
     checkCart();
 });
 
-function loadGoods(){
+function loadSanfayans(){
     $.getJSON('goods.json', function(data){
         var out = '';
         for (var key in data){
@@ -18,7 +21,55 @@ function loadGoods(){
             out+='</div>';
             }
         }
-        $('#goods').html(out);
+        $('#sanfayans').html(out);
+    });
+}
+function loadBaths(){
+    $.getJSON('goods.json', function(data){
+        var out = '';
+        for (var key in data){
+            if (('Ванны'.localeCompare(data[key]['category']))==0){
+            out+='<div class="goods__single-product">';
+            out+='<h2 class="goods__product-name">'+data[key]['name']+'</h2>';
+            out+='<img class="goods__img" src="'+data[key]['img']+'" alt="">';
+            out+='<h2>'+data[key]['price']+' ₽</h2>';
+            out+='<button class="goods__add-btn" articul="'+key+'">Добавить в корзину</button>';
+            out+='</div>';
+            }
+        }
+        $('#baths').html(out);
+    });
+}
+function loadMixers(){
+    $.getJSON('goods.json', function(data){
+        var out = '';
+        for (var key in data){
+            if (('Смесители'.localeCompare(data[key]['category']))==0){
+            out+='<div class="goods__single-product">';
+            out+='<h2 class="goods__product-name">'+data[key]['name']+'</h2>';
+            out+='<img class="goods__img" src="'+data[key]['img']+'" alt="">';
+            out+='<h2>'+data[key]['price']+' ₽</h2>';
+            out+='<button class="goods__add-btn" articul="'+key+'">Добавить в корзину</button>';
+            out+='</div>';
+            }
+        }
+        $('#mixers').html(out);
+    });
+}
+function loadSiphons(){
+    $.getJSON('goods.json', function(data){
+        var out = '';
+        for (var key in data){
+            if (('Смесители'.localeCompare(data[key]['category']))==0){
+            out+='<div class="goods__single-product">';
+            out+='<h2 class="goods__product-name">'+data[key]['name']+'</h2>';
+            out+='<img class="goods__img" src="'+data[key]['img']+'" alt="">';
+            out+='<h2>'+data[key]['price']+' ₽</h2>';
+            out+='<button class="goods__add-btn" articul="'+key+'">Добавить в корзину</button>';
+            out+='</div>';
+            }
+        }
+        $('#siphons').html(out);
         $('button.goods__add-btn').on('click', addToCart);
     });
 }
