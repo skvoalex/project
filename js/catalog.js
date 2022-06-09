@@ -9,7 +9,7 @@ $('document').ready(function(){
 });
 
 function loadSanfayans(){
-    $.getJSON('js/goods.json', function(data){
+    $.getJSON('http://myjson.dit.upm.es/api/bins/c8vp', function(data){
         var out = '';
         for (var key in data){
             if (('Санфаянс'.localeCompare(data[key]['category']))==0){
@@ -25,7 +25,7 @@ function loadSanfayans(){
     });
 }
 function loadBaths(){
-    $.getJSON('js/goods.json', function(data){
+    $.getJSON('http://myjson.dit.upm.es/api/bins/c8vp', function(data){
         var out = '';
         for (var key in data){
             if (('Ванны'.localeCompare(data[key]['category']))==0){
@@ -41,7 +41,7 @@ function loadBaths(){
     });
 }
 function loadMixers(){
-    $.getJSON('js/goods.json', function(data){
+    $.getJSON('http://myjson.dit.upm.es/api/bins/c8vp', function(data){
         var out = '';
         for (var key in data){
             if (('Смесители'.localeCompare(data[key]['category']))==0){
@@ -57,7 +57,7 @@ function loadMixers(){
     });
 }
 function loadSiphons(){
-    $.getJSON('js/goods.json', function(data){
+    $.getJSON('http://myjson.dit.upm.es/api/bins/c8vp', function(data){
         var out = '';
         for (var key in data){
             if (('Смесители'.localeCompare(data[key]['category']))==0){
