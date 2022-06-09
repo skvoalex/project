@@ -83,7 +83,6 @@ function addToCart(){
         cart[articul] = 1;
     }
     localStorage.setItem('cart', JSON.stringify(cart));
-    console.log(cart);
 }
 
 function checkCart(){

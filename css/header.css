@@ -44,3 +44,11 @@
     width: 8%;
     height: 100%;
 }
+.header__nav__link:hover{
+    background-color: #6e787a;
+    transition: all ease-in-out .5s;
+}
+.header__nav__link:not(:hover){
+    background-color: #4F5759;
+    transition: all ease-in-out .5s;
+}

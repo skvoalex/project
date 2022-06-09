@@ -54,3 +54,11 @@
     margin: 10px auto;
     color:#F2F2F2;
 }
+.goods__add-btn:hover{
+    background-color: #6e787a;
+    transition: all ease-in-out .5s;
+}
+.goods__add-btn:not(:hover){
+    background-color: #4F5759;
+    transition: all ease-in-out .5s;
+}
