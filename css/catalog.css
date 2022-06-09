@@ -1,0 +1,56 @@
+.goods__wrapper{
+    max-width: 1800px;
+    margin: auto;
+}
+.goods__wrapper h1{
+    margin: 100px 0 0 100px;
+}
+.goods__single-product{
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+#sanfayans{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#baths{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#mixers{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#siphons{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.goods__product-name{
+    margin-top: 20px;
+}
+.goods__img{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.goods__add-btn{
+    width: 200px;
+    height: 50px;
+    background-color: #4F5759;
+    margin: 10px auto;
+    color:#F2F2F2;
+}

@@ -13,7 +13,9 @@
     },
     "3" : {
         "category" : "Санфаянс",
+        "discount" : true,
         "name" : "Duravit Durastyle",
+        "oldPrice": 18500,
         "price" : 16000,
         "img" : "images/san1.png"
     },
@@ -25,7 +27,9 @@
     },
     "5" : {
         "category" : "Санфаянс",
+        "discount" : true,
         "name" : "Jacob Delafon",
+        "oldPrice" : 14900,
         "price" : 14000,
         "img" : "images/san5.png"
     },
@@ -37,7 +41,9 @@
     },
     "7" : {
         "category" : "Ванны",
+        "discount" : true,
         "name" : "Vincea VBT",
+        "oldPrice" : 98230,
         "price" : 91640,
         "img" : "images/bath1.png"
     },
@@ -49,7 +55,9 @@
     },
     "9" : {
         "category" : "Ванны",
+        "discount" : true,
         "name" : "Cezares Plane",
+        "oldPrice" : 33442,
         "price" : 32230,
         "img" : "images/bath3.png"
     },
@@ -61,7 +69,9 @@
     },
     "11" : {
         "category" : "Ванны",
+        "discount" : true,
         "name" : "Riho Barca",
+        "oldPrice" : 499999,
         "price" : 482460,
         "img" : "images/bath5.png"
     },
@@ -73,7 +83,9 @@
     },
     "13" : {
         "category" : "Смесители",
+        "discount" : true,
         "name" : "Aquanet Passion",
+        "oldPrice" : 9999,
         "price" : 8640,
         "img" : "images/smes1.png"
     },
@@ -85,7 +97,9 @@
     },
     "15" : {
         "category" : "Смесители",
+        "discount" : true,
         "name" : "Aquanet Blanco",
+        "oldPrice" : 8230,
         "price" : 7600,
         "img" : "images/smes3.png"
     },
@@ -97,13 +111,17 @@
     },
     "17" : {
         "category" : "Смесители",
+        "discount" : true,
         "name" : "Elerat Brav",
+        "oldPrice" : 4999,
         "price" : 4530,
         "img" : "images/smes5.png"
     },
     "18" : {
         "category" : "Смесители",
+        "discount" : true,
         "name" : "Grohe Eurosmart",
+        "oldPrice" : 16499,
         "price" : 15816,
         "img" : "images/smes6.png"
     },
@@ -121,7 +139,9 @@
     },
     "21" : {
         "category" : "Сифоны",
+        "discount" : true,
         "name" : "Lineis",
+        "oldPrice" : 5903,
         "price" : 5570,
         "img" : "images/siphon3.png"
     },
