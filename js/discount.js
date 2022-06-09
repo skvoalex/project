@@ -13,11 +13,13 @@ function loadDiscounts(){
             out+='<img class="discounts__img" src="'+data[key]['img']+'" alt="" width="150" height="150">';
             out+='<h2 class="discounts__old-price"><strike>'+data[key]['oldPrice']+' ₽</strike></h2>';
             out+='<h2>'+data[key]['price']+' ₽</h2>';
+            out+='<button class="goods__add-btn" articul="'+key+'">Добавить в корзину</button>';
             discountVar+=discountCounter;
             discountCounter++;
             $('#'+discountVar).html(out);
             console.log(discountVar);
             }
         }
+        $('button.goods__add-btn').on('click', addToCart);
     });
 }
