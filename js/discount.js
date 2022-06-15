@@ -1,4 +1,3 @@
-var discounts = {};
 loadDiscounts();
 function loadDiscounts(){
     $.getJSON('db.json', function(data){
@@ -19,14 +18,4 @@ function loadDiscounts(){
             }
         }
     });
-}
-function addToCart(){
-    var articul = $(this).attr('articul');
-    if (cart[articul]!=undefined){
-        cart[articul]++;
-    }
-    else {
-        cart[articul] = 1;
-    }
-    localStorage.setItem('cart', JSON.stringify(cart));
 }

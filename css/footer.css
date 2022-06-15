@@ -6,8 +6,6 @@
 .footer__container{
     height: 100%;
     width: 100%;
-    margin-left:auto;
-    margin-right:auto;
     max-width: 1800px;
     display: flex;
     justify-content: space-between;
